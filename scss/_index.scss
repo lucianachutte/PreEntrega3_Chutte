@@ -1,0 +1,52 @@
+/*INDEX*/
+@mixin texto {
+    color: $color-fuentes;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    }
+
+@mixin parrafo {
+    color: $color-fuentes;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1,1rem;
+    font-weight: bold;
+
+}
+
+body{
+
+    main{
+
+        h1{ @include texto;
+            
+        }
+
+        p{@include parrafo;
+        }
+
+        h2{
+            @include texto;
+        }
+    }
+}
+
+footer{
+    background-color: $color-fuentes-terciario;
+
+    a{
+        color:rgb(243, 201, 33);
+        font-size: 2rem;
+        margin-left:1rem;
+        margin-right:1rem;
+        margin-top:1rem;
+        margin-bottom: 0,5rem;
+
+    }
+
+    h3{ 
+        text-align: center; 
+        font-size: 1rem; 
+        font-family: 'Courier New',Courier, monospace;
+        opacity: 0,5;
+    }
+}

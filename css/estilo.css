@@ -1,0 +1,115 @@
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap"); /*ESTILOS GENERALES*/
+html {
+  font-size: 62, 5%;
+}
+html body {
+  background-color: #F0EBE3;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  vertical-align: baseline;
+}
+
+/*INDEX*/
+body main h1 {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+body main p {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1, 1rem;
+  font-weight: bold;
+}
+body main h2 {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: gray;
+}
+footer a {
+  color: rgb(243, 201, 33);
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0, 5rem;
+}
+footer h3 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0, 5;
+}
+
+/*CONTACTO*/
+body main #formulario {
+  margin-bottom: 2rem;
+}
+body main #formulario .contenedor {
+  background-color: #24303c;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+body main #formulario .contenedor h1 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body main #formulario .contenedor .control {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #FFCB42;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+body main #formulario .contenedor .boton {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to left top, rgb(243, 201, 33), #D36B00);
+  font-size: 20px;
+}
+body main #formulario .contenedor .boton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+body main #formulario .contenedor .boton:active {
+  transform: translateY(3px);
+}
+body main #formulario .contenedor .control:focus {
+  height: 60px;
+}
+body main #formulario .contenedor .contacto {
+  color: #F0EBE3;
+}
+
+/*MEDIAS*/
+@media (max-width: 450px) {
+  .contenedor {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
